@@ -26,7 +26,7 @@ router.post('/add', TeamController.processAddPage);
 /*Get route for displaying Edit Operation -- Create Operation*/ 
 router.get('/edit/:id', TeamController.displayEditPage);
 /*Post route for displaying Edit Operation -- Create Operation*/ 
-router.get('/edit/:id', TeamController.processEditPage);
+router.post('/edit/:id', TeamController.processEditPage);
 
 
 
