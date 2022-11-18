@@ -1,0 +1,17 @@
+/* custom css goes here */
+
+.fa-color{
+    color: rgb(239, 22, 2);
+}
+
+.Home article{
+    margin-top: 20% !important;
+    margin-bottom: 10% !important;
+    margin-left: relative;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Home p{
+    font-size: 20px;
+}

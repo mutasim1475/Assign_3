@@ -1,0 +1,74 @@
+<%- include ("../partials/header.ejs") %>
+<%- include ("../partials/main_nav.ejs") %>
+
+<!-- Content for the Edit poage -->
+<div class ="container">
+    <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+            <h1><%= title %></h1>
+            <form class="form" method="post">
+            
+                <div class="form-group">
+                    <label for="TeamTextField"> Team Name</label>
+                    <input type="text" class="form-control"
+                    id="TeamTextField"
+                    placeholder="Enter team name" 
+                    name="name" 
+                    value="<%= team.name %>" 
+                    required>
+                </div>
+
+                <div class="form-group">
+                    <label for="WTextField">Wins</label>
+                    <input type="text" class="form-control"
+                    id="WTextField"
+                    placeholder="Enter number of wins" 
+                    name="W" 
+                    value="<%= team.W %>" 
+                    required>
+                </div>
+
+                <div class="form-group">
+                    <label for="LTextField">Loss</label>
+                    <input type="text" class="form-control"
+                    id="LTextField"
+                    placeholder="Enter number of losses" 
+                    name="L" 
+                    value="<%= team.L %>" 
+                    required>
+                </div>
+
+                <div class="form-group">
+                    <label for="GFTextField"> Goals For</label>
+                    <input type="text" class="form-control"
+                    id="GFTextField"
+                    placeholder="Enter the number of goals scored" 
+                    name="GF" 
+                    value="<%= team.GF %>" 
+                    required>
+                </div>
+
+                <div class="form-group">
+                    <label for="GATextField"> Goals Against</label>
+                    <input type="text" class="form-control"
+                    id="GATextField"
+                    placeholder="Enter the number of goals conceded" 
+                    name="GA" 
+                    value="<%= team.GA %>" 
+                    required>
+                </div>
+                
+                <br>
+                <button class="btn-btn-primary" type="submit">
+                    <i class="fas fa-edit"></i> Submit
+                </button>
+
+                <a href="/Standings" class="btn btn-warning">
+                    <i class="fas fa-undo"></i>Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<%- include ("../partials/bottom_nav.ejs") %>
+<%- include ("../partials/footer.ejs") %>
