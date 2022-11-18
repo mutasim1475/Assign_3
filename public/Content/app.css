@@ -1,8 +1,64 @@
-/* custom css goes here */
-
+/*Colour for navbar links*/
 .fa-color{
+    cursor:pointer !important;
+    color: aqua !important;
+}
+
+/*Colour for background*/
+body{
+    background-color: rgb(152, 148, 148) !important;
+}
+
+
+h1{
+    color: aliceblue;
+}
+
+
+p{
+    color: aqua;
+}
+
+.p a{
+    color: aliceblue;
+}
+
+
+
+/*Colour for delete button*/
+.fa-delete{
     color: rgb(239, 22, 2);
 }
+
+/*Colour for edit button*/
+.fa-edit{
+    color: aqua;
+}
+
+
+/*Colour for Add a team button*/
+.fas-border{
+    color: aqua;
+}
+
+
+
+/*Colour for tables*/
+tr{
+    color: aqua !important;
+}
+td{
+    color: aqua !important;
+}
+table{
+    color: aqua !important;
+}
+th{
+    color: aqua !important;
+    font-size: larger;
+}
+
+
 
 .Home article{
     margin-top: 20% !important;
@@ -14,4 +70,6 @@
 
 .Home p{
     font-size: 20px;
+    width: 50%;
+    margin: auto;
 }
