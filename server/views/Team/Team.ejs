@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-md-offset-3 col-nd-10">
                 <h1><%= "Standings" %></h1>
-                <a href="Standings/add" class="btn btn-primary" role="button">
+                <a href="Standings/add" class="btn fa-addd" role="button">
                     <i class="fas fa-plus-circle fas-border"></i> Add a Team
                 </a>
                 <br>
@@ -30,18 +30,18 @@
                         <td class="text-center"><%= Team[count].GF%></td>
                         <td class="text-center"><%= Team[count].GA%></td>
                         <td class="text-center">
-                            <a href="/Standings/edit/<%= Team[count]._id %>"
-                            class="btn btn-primary">
-                            <i class="fas fa-pencil-alt"></i> Edit </a>
+                            <div class="edit-button">
+                                <a href="/Standings/edit/<%= Team[count]._id %>"
+                                class="btn fa-edit2">
+                                <i class="fas fa-pencil-alt fa-edit" ></i> Edit  </a>
+                            </div>
                         </td>
                        
                         <td class="text-center">
                             <a href="/Standings/delete/<%= Team[count]._id %>"
-                            class="btn ">
-                            <i class="fas fa-trash-alt fa-color"></i> Delete </a>
+                            class="btn fa-delete2">
+                            <i class="fas fa-trash-alt fa-delete"></i> Delete </a>
                         </td>
-                        
-
                     </tr>
             <% }  %> 
         </table>
