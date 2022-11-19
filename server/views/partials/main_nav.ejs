@@ -11,17 +11,18 @@
       <!--Home Page link. If on Home page, make active, otherwise not-->
         <li class="home-button">
         <% if(title == "Home") { %>
-          <a class="nav-link active" href="/home"> 
+          <a class="nav-link active fa-color" href="/home"> 
         <% } 
         else { %>
           <a class="nav-link" href="/home"> 
         <% } %>
         <i class="fa-sharp fa-solid fa-house fa-2x"></i> Home</a>
         </li>
-
+      
+      <!--Standings Page link. If on Home page, make active, otherwise not-->
         <li class="nav-item">
         <% if (title == "Standings") { %>
-          <a class="nav-link active" href="/Standings">
+          <a class="nav-link active fa-color" href="/Standings">
         <% } else { %>
           <a class="nav-link" href="/Standings">
         <% } %>
