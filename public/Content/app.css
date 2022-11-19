@@ -4,23 +4,31 @@
     color: aqua !important;
 }
 
+
+
 /*Colour for background*/
 body{
-    background-color: rgb(152, 148, 148) !important;
+    background-color: rgb(1, 7, 28) !important;
 }
 
 
+
+
+/*Styling for Home Page*/
 h1{
     color: aliceblue;
 }
-
 
 p{
     color: aqua;
 }
 
-.p a{
-    color: aliceblue;
+p a{
+    color: aliceblue !important;
+}
+
+p a:hover{
+    color: aqua !important;
 }
 
 
@@ -30,15 +38,74 @@ p{
     color: rgb(239, 22, 2);
 }
 
+.fa-delete2{
+    color: rgb(255, 255, 255) !important;
+}
+
+.fa-delete2:hover{
+    color: red !important;
+    border:1px solid red !important;
+}
+
+
+
 /*Colour for edit button*/
 .fa-edit{
     color: aqua;
 }
 
+.fa-edit2{
+    color: rgb(253, 253, 253) !important;
+}
+
+.fa-edit2:hover{
+    color: aqua !important;
+    border:1px solid aqua !important;
+}
+
+
 
 /*Colour for Add a team button*/
 .fas-border{
     color: aqua;
+}
+
+.fa-addd{
+    color: aliceblue !important;
+}
+
+.fa-addd:hover{
+    color: aliceblue !important;
+    border:1px solid aqua !important;
+}
+
+/*Submit Button*/
+.submit{
+    border-color: aqua !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.submit:hover{
+    color: aqua !important;
+}
+
+/*Cancel Button*/
+.cancel{
+   color: red !important;
+}
+
+.cancel:hover{
+    border:1px solid red !important;
+}
+
+/*Add a team form*/
+form{
+    color: aqua !important;
+}
+
+.form-control{
+    background-color: rgb(57, 57, 57) !important;
+    color: white !important;
 }
 
 
@@ -59,7 +126,7 @@ th{
 }
 
 
-
+/*Home Page*/
 .Home article{
     margin-top: 20% !important;
     margin-bottom: 10% !important;
